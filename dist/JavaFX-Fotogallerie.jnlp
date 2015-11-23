@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX-Fotogallerie.jnlp">
+  <information>
+    <title>JavaFX-Fotogallerie</title>
+    <vendor>Florian</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX-Fotogallerie.jar" size="18114" download="eager" />
+    <jar href="lib/commons-math3-3.2.jar" size="1692782" download="eager" />
+    <jar href="lib/jopensurf-src.jar" size="24367" download="eager" />
+    <jar href="lib/jopensurf.jar" size="18754" download="eager" />
+    <jar href="lib/lire.jar" size="3301641" download="eager" />
+    <jar href="lib/lucene-analyzers-common-4.10.2.jar" size="1699873" download="eager" />
+    <jar href="lib/lucene-core-4.10.2.jar" size="2559249" download="eager" />
+    <jar href="lib/lucene-queryparser-4.10.2.jar" size="391418" download="eager" />
+    <jar href="lib/opencv-249.jar" size="447830" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFX-Fotogallerie" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafx.fotogallerie.JavaFXFotogallerie"  name="JavaFX-Fotogallerie" />
+  <update check="always"/>
+</jnlp>
